@@ -13,7 +13,7 @@ const groupSettingsSchema = new mongoose.Schema({
   antilink: {
     enabled: { type: Boolean, default: false },
     warnings: mongoose.Schema.Types.Mixed,
-    action: { type: String, default: 'kick' } // kick, mute, warn
+    action: { type: String, default: 'kick' }
   },
   antiswgc: {
     enabled: { type: Boolean, default: false }
